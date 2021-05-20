@@ -1,9 +1,10 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "aachen, sans-serif";
   font-size: 18px;
 
   background-attachment: fixed;/*para que sea estático*/
@@ -12,6 +13,10 @@ body {
 
 .background{
   color: rgba(0, 0, 0, 0.699);
+}
+
+.green0{
+  background-color: rgb(41, 66, 0);
 }
 
 .padding{
@@ -29,6 +34,7 @@ body {
 .card-title{
   color: rgb(0, 0, 0);
   font-size: 25px;
+  /* font-family: oswald; */
   font-weight: bold;
 }
 
@@ -43,7 +49,7 @@ body {
 }
 
 .green1{
-  background-color: rgba(129, 209, 0, 0.555)
+  background-color: rgba(41, 66, 0, 0.850);
 }
 
 .gris{
